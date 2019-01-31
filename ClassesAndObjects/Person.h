@@ -1,4 +1,6 @@
+#pragma once // not technically a standard but all support it; allows for stuff not being re-included
 #include <string>
+// explicitly define the types due to someone wanting to bring in your header
 class Person
 {
 private:
