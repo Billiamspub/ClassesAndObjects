@@ -13,6 +13,8 @@ public:
 	//Person() = default; // default keyword can also be used for other constructors
 	Person();
 	~Person();
-	std::string getName();
+	std::string GetName() const;
+	int GetNumber() const { return arbitrarynumber; }
+	void SetNumber(int number) { arbitrarynumber = number; }
 };
 
